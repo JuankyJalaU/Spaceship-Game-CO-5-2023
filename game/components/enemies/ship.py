@@ -17,6 +17,7 @@ class Ship2(Enemy):
     HEIGHT = 60
     SPEED_X = 8
     SPEED_Y = 3
+    INTERVAL = 20
 
     def __init__(self):
         self.image = ENEMY_2  # Utiliza la nueva imagen del enemigo
